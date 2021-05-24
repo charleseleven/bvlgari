@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Travelix</title>
+   <!--Font awesome CDN-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <nav class="nav">
+            <a href="index.html" class="logo">
+               <img src="./images/logo-photo-1.png" alt="Logo" class="logo-image">
+            </a>
+            <div class="hamburger-menu">
+               <i class="fas fa-bars open-state"></i>
+               <i class="fas fa-times close-state"></i>
+            </div>
+            <ul class="nav-list">
+               <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link">About</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link">Offers</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link">News</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      <div class="hero">
+         <div class="container">
+            <div class="main-heading">
+               <h1 class="title">Bvlgari</h1>
+               <h2 class="subtitle">Luxury hotels</h2>
+            </div>
+            <a href="#" class="btn btn-beige-solid">Explore now
+               <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+            </a>
+         </div>
+      </div>
+
+      <section class="booking">
+         <div class="container">
+            <form action="" class="book-form">
+               <div class="input-group">
+                  <label for="destination" class="input-label">Destination</label>
+                  <input type="text" class="input" id="destination" placeholder="Malta">
+               </div>
+               <div class="input-group">
+                  <label for="check-in" class="input-label">Check in</label>
+                  <input type="date" class="input" id="check-in">
+               </div>
+               <div class="input-group">
+                  <label for="check-out" class="input-label">Check out</label>
+                  <input type="date" class="input" id="check-out">
+               </div>
+               <div class="input-group">
+                  <label for="adults" class="input-label">Adults</label>
+                  <select class="options" id="adults">
+                     <option value="0">0</option>
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                  </select>
+               </div>
+               <div class="input-group">
+                  <label for="children" class="input-label">Children</label>
+                  <select class="options" id="children">
+                     <option value="0">0</option>
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                  </select>
+               </div>
+               <button class="btn form-btn btn-green-light">Search
+                  <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+               </button>
+            </form>
+         </div>
+      </section>
+
+      <section class="about" id="about">
+         <div class="container">
+            <div class="profile-img"></div>
+            <div class="about-details">
+               <div class="about-heading">
+                  <h1>About</h1>
+                  <h6>Bvlgari</h6>
+               </div>
+               <p>
+                  Bvlgari is now a major residential and tourist centre, and home to some of Malta's newest hotels.
+                  <br><br>
+                  It is now an extension of Sliema although it started life as a small fishing port based on Spinola and
+                  Balluta Bays. St. Julian's merges with Paceville, Malta's main nightlife centre where there are clubs,
+                  casinos and numerous restaurants, cafes and bars.
+                  <br><br>
+                  Picturesque Spinola Bay is still used by fishermen whose traditional boats are housed just below the
+                  restaurants. The bay is particularly attractive at night and as a venue for open-air dining. The
+                  elegant Spinola Palace, built in 1658 by an Italian knight, Giovanni Spinola, is the landmark historic
+                  building on the bay. Another fine building with superb sea views is Villa Dragonara, now a casino, on
+                  the headland of St. George's Bay.
+               </p>
+            </div>
+
+         </div>
+
+      </section>
+
+      <section class="hotels">
+         <div class="container">
+            <h5 class="section-head">
+               <span class="heading">Explore</span>
+               <span class="sub-heading">Our beautiful hotels</span>
+            </h5>
+            <div class="grid">
+               <div class="grid-item featured-hotels">
+                  <img src="./images/hotel_astro_resort.jpg" alt="Astro Resort" class="hotel-image">
+                  <h5 class="hotel-name">Astro Hotel</h5>
+                  <span class="hotel-price">From $200/Night</span>
+                  <div class="hotel-rating">
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star-half rating"></i>
+                  </div>
+                  <a href="#" class="btn btn-green-solid">Book now
+                     <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                  </a>
+               </div>
+
+               <div class="grid-item featured-hotels">
+                  <img src="./images/hotel_the_enchanted_garden.jpg" alt="Enchanted Garden" class="hotel-image">
+                  <h5 class="hotel-name">Enchanted Garden</h5>
+                  <span class="hotel-price">From $300/Night</span>
+                  <div class="hotel-rating">
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                  </div>
+                  <a href="#" class="btn btn-green-solid">Book now
+                     <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                  </a>
+               </div>
+
+               <div class="grid-item featured-hotels">
+                  <img src="./images/hotel_the_paradise.jpg" alt="Hotel Paradise" class="hotel-image">
+                  <h5 class="hotel-name">Hotel Paradise</h5>
+                  <span class="hotel-price">From $350/Night</span>
+                  <div class="hotel-rating">
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                     <i class="fas fa-star rating"></i>
+                  </div>
+                  <a href="#" class="btn btn-green-solid">Book now
+                     <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                  </a>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+      <section class="offer">
+         <div class="container">
+            <div class="offer-content">
+               <div class="discount">
+                  40% off
+               </div>
+               <h5 class="hotel-name">The Paradise</h5>
+               <div class="hotel-rating">
+                  <i class="fas fa-star rating"></i>
+                  <i class="fas fa-star rating"></i>
+                  <i class="fas fa-star rating"></i>
+                  <i class="fas fa-star rating"></i>
+                  <i class="fas fa-star-half rating"></i>
+               </div>
+               <p class="paragraph">
+                  Enjoy 40% off our Room Rate – offer also includes Free Stocked Mini Bar upon arrival. All rates are
+                  inclusive of Free Wi-Fi and Buffet Breakfast.
+               </p>
+               <a href="#" class="btn btn-green-solid">Redeem offer
+                  <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+               </a>
+            </div>
+         </div>
+      </section>
+
+      <section class="rooms">
+         <div class="container">
+            <h5 class="section-head">
+               <span class="heading">Luxurious</span>
+               <span class="sub-heading">Affordable rooms</span>
+            </h5>
+            <div class="grid rooms-grid">
+               <div class="grid-item featured-rooms">
+                  <div class="image-wrap">
+                     <img class="room-image" src="./images/room_1.jpg" alt="Room 1">
+                     <h5 class="room-name">Astro Hotel</h5>
+                  </div>
+                  <div class="room-info-wrap">
+                     <span class="room-price">$200 <span class="per-night">Per night</span> </span>
+                     <p class="paragraph">
+                        These sophisticated rooms offer views of Pignano’s terraced gardens and infinity pool and
+                        sweeping prospects of Dobbie and other nearby hill towns.
+                     </p>
+                     <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                  </div>
+               </div>
+               <div class="grid-item featured-rooms">
+                  <div class="image-wrap">
+                     <img class="room-image" src="./images/room_2.jpg" alt="Room 2">
+                     <h5 class="room-name">Enchanted Garden</h5>
+                  </div>
+                  <div class="room-info-wrap">
+                     <span class="room-price">$300 <span class="per-night">Per night</span> </span>
+                     <p class="paragraph">
+                        Enchanted Garden consist of two spacious suites with independent access and a shared marble and
+                        travertine bathroom with bath and shower.
+                     </p>
+                     <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                  </div>
+               </div>
+
+               <div class="grid-item featured-rooms">
+                  <div class="image-wrap">
+                     <img class="room-image" src="./images/room_3.jpg" alt="Room 3">
+                     <h5 class="room-name">The Paradise</h5>
+                  </div>
+                  <div class="room-info-wrap">
+                     <span class="room-price">$350 <span class="per-night">Per night</span> </span>
+                     <p class="paragraph">
+                        Is one of the villa’s largest rooms with high ceilings and paradise style windows with a
+                        sweeping panorama that looks towards the Mediterranean.
+                     </p>
+                     <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                  </div>
+               </div>
+               <div class="grid-item featured-rooms">
+                  <div class="image-wrap">
+                     <img class="room-image" src="./images/room_4.jpg" alt="Room 4">
+                     <h5 class="room-name">The Bvlgari Full</h5>
+                  </div>
+                  <div class="room-info-wrap">
+                     <span class="room-price">$400 <span class="per-night">Per night</span> </span>
+                     <p class="paragraph">
+                        With king or queen beds, a sitting room and capacious luxurious en-suite bathrooms with
+                        freestanding roll-top baths, and an amazing pool.
+                     </p>
+                     <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="contact">
+         <div class="container">
+            <h5 class="section-head">
+               <span class="heading">Contact</span>
+               <span class="sub-heading">Get in touch with us</span>
+            </h5>
+            <div class="contact-content">
+               <div class="traveler-wrap">
+                  <img src="./images/traveler.png" alt="Traveler">
+               </div>
+               <form action="" class="form contact-form">
+                  <div class="input-group-wrap">
+                     <div class="input-group">
+                        <input type="text" class="input" placeholder="Name" required>
+                        <span class="bar"></span>
+                     </div>
+
+                     <div class="input-group">
+                        <input type="email" class="input" placeholder="E-mail" required>
+                        <span class="bar"></span>
+                     </div>
+                  </div>
+                  <div class="input-group">
+                     <input type="text" class="input" placeholder="Subject" required>
+                     <span class="bar"></span>
+                  </div>
+                  <div class="input-group">
+                     <textarea cols="30" rows="8" class="input" placeholder="Message" required></textarea>
+                     <span class="bar"></span>
+                  </div>
+                  <button type="submit" class="btn form-btn btn-green-solid">Send Message
+                     <span class="dots">
+                        <i class="fas fa-ellipsis-h">
+                        </i>
+                     </span>
+                  </button>
+               </form>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer-content">
+            <div class="footer-content-brand">
+               <a href="index.html" class="logo">
+                  <img src="./images/logo-photo-1.png" alt="Logo" class="logo-image">
+               </a>
+               <div class="paragraph">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, porro libero laboriosam quam dicta
+                  mollitia eos distinctio quos ut animi itaque eveniet culpa rerum non quaerat qui quod fugit excepturi?
+               </div>
+               <div class="social-media-wrap">
+                  <h4 class="footer-heading">Follow us</h4>
+                  <div class="social-media">
+                     <a href="#" class="sm-link"><i class="fab fa-twitter"></i></a>
+                     <a href="#" class="sm-link"><i class="fab fa-facebook-square"></i></a>
+                     <a href="#" class="sm-link"><i class="fab fa-instagram"></i></a>
+                     <a href="#" class="sm-link"><i class="fab fa-pinterest"></i></a>
+                     <a href="#" class="sm-link"><i class="fab fa-tripadvisor"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- Footer scrtion end -->
+   <div class="copyRightText">
+      <p>Portifolio © Copyright by <b>Charles Pires Rodrigues</b>.</p>
+   </div>
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>
